@@ -1,4 +1,4 @@
-﻿
+﻿//OK
 // Midterm_20163166View.cpp: CMidterm20163166View 클래스의 구현
 //
 
@@ -17,7 +17,7 @@
 #define new DEBUG_NEW
 #endif
 
-
+//
 // CMidterm20163166View
 
 IMPLEMENT_DYNCREATE(CMidterm20163166View, CView)
