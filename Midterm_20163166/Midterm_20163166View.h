@@ -57,9 +57,11 @@ public:
 	COLORREF m_brushColor_faSharp;
 	COLORREF m_brushColor_solSharp;
 	COLORREF m_brushColor_laSharp;
-	CPoint m_ptNote;
+
 	COLORREF m_brushColor_note;
 	COLORREF m_penColor;
+
+	CPoint m_ptNote;
 	CPoint m_ptNote01;
 	CPoint m_ptNote02;
 	CPoint m_ptNote03;
@@ -68,7 +70,28 @@ public:
 	CPoint m_ptNote06;
 	CPoint m_ptNote07;
 	CPoint m_ptNote08;
+
 	CPoint m_ptSharp;
+	CPoint m_ptSharp01;
+	CPoint m_ptSharp02;
+	CPoint m_ptSharp03;
+	CPoint m_ptSharp04;
+	CPoint m_ptSharp05;
+	CPoint m_ptSharp06;
+	CPoint m_ptSharp07;
+	CPoint m_ptSharp08;
+
+	int count = 100;
+	void COUNTx();
+	int COUNTy = 5000;
+
+	void COUNTsharp();
+
+	afx_msg void Reset();
+	afx_msg void OnReset();
+	afx_msg void OnUndo();
+	afx_msg void OnHangle();
+	COLORREF m_brushColor_start;
 };
 
 #ifndef _DEBUG  // Midterm_20163166View.cpp의 디버그 버전

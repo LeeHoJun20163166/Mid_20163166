@@ -15,8 +15,8 @@
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif 
-
-
+ 
+ 
 // CMidterm20163166App
 
 BEGIN_MESSAGE_MAP(CMidterm20163166App, CWinApp)

@@ -211,6 +211,13 @@
     <None Include="res\Midterm20163166.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\OneDrive\바탕 화면\학교관련\3학년 2학기\mfc\비트맵.bmp" />
+    <Image Include="..\..\..\..\..\OneDrive\바탕 화면\학교관련\3학년 2학기\mfc\비트맵.JPG" />
+    <Image Include="..\..\..\..\..\OneDrive\바탕 화면\학교관련\3학년 2학기\mfc\비트맵48.bmp" />
+    <Image Include="..\..\..\..\..\OneDrive\바탕 화면\학교관련\3학년 2학기\mfc\비트맵48.ico" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\icon1.ico" />
     <Image Include="res\Midterm_20163166.ico" />
     <Image Include="res\Midterm_20163166Doc.ico" />
     <Image Include="res\Toolbar.bmp" />
